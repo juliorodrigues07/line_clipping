@@ -9,4 +9,4 @@ clean:
 	rm -rf clip
 
 run:
-	./clip
+	./clip ../instances/test.txt 720 1280
