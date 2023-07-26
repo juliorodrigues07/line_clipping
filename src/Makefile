@@ -1,8 +1,8 @@
 all: cohen_sutherland.o
-	g++ cohen_sutherland.o main.cpp -o clip -lGL -lGLU -lglut -lm
+	gcc cohen_sutherland.o main.c -o clip -lGL -lGLU -lglut -lm
 
-cohen_sutherland.o: cohen_sutherland.hpp
-	g++ -c cohen_sutherland.cpp
+cohen_sutherland.o: cohen_sutherland.h
+	gcc -c cohen_sutherland.c
 
 clean:
 	rm -rf *.o

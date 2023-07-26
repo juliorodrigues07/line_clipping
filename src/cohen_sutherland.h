@@ -1,4 +1,4 @@
-#include <cstdio>
+#include <stdio.h>
 #include <stdbool.h>
 #include <GL/glut.h>
 

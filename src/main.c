@@ -1,4 +1,4 @@
-#include "cohen_sutherland.hpp"
+#include "cohen_sutherland.h"
 
 char *file_name;
 int height, width;
@@ -7,6 +7,7 @@ void error(const char *msg) {
     perror(msg);
     exit(1);
 }
+
 int main(int argc, char **argv) {
 
     if (argc != 4)

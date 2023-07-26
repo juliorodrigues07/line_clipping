@@ -1,4 +1,4 @@
-#include "cohen_sutherland.hpp"
+#include "cohen_sutherland.h"
 
 GLfloat windowWidth;
 GLfloat windowHeight;
